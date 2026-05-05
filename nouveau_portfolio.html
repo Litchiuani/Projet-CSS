@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>E portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <!-- NAVBAR-->
+     <nav class="navbar">
+        <span class="nav-logo">Mon e-portfolio</span>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="about">ABOUT</a>
+            <a href="work">WORK</a>
+            <a href="resume">RESUME</a>
+            <a href="contact">CONTACT</a>
+
+        </div>
+     </nav>
+
+    <!-- HOME-->
+     <section id="home" class="section-home">
+        <h1 class="home-title">Lucia Theodora Héléne Borege VARELA</h1>
+        <p class="home-subtitle">Développeur fullstack | Dakar,Sénégal</p>
+        <a href="#work" class="btn-primary">Voir mes projets</a>
+     </section>*
+
+     <!-- ABOUT-->
+      <section id="about" class="section">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="about-content">
+            <img class="about-photo" src="https://kinsta.com/fr/wp-content/uploads/sites/4/2021/12/what-is-a-full-stack-developer.png" alt="Ma photo">
+            <div class="about-text">
+                <p>
+                    Bonjour ! Je suis développeur web basé à Dakar, passionné par les solutions
+                    numériques pour l'agriculture en Afrique de l'Ouest. Je travaille actuellement
+                    sur AgroLink, une plateforme sociale agricole pour le Sénégal.
+                </p>
+                <h3>Compétences</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">HTML/CSS</li>
+                    <li class="skill-item">JavaScript</li>
+                    <li class="skill-item">React</li>
+                    <li class="skill-item">Node.js</li>
+                    <li class="skill-item">PostgreSQL/MySQL/Oracle</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+    <!-- WORK-->
+     <section id="work" class="section section-alt">
+        <h2 class="section-title">WORK</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">Cosam-link</h3>
+                <p class="project-desc">
+                    Plateforme sociale agricole connectant agriculteurs, vendeurs et prestataires
+                    au Sénégal. Fonctionnalités : marketplace, fil d'actualité, assistant IA,
+                    support multilingue (Wolof, Pulaar, Sérère).
+                </p>
+                <a href="#" class="btn-secondary">Voir le projet</a>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Suniu cadastre</h3>
+                <p class="project-desc">Application réalisée avec HTML/CSS/JavaScript/Ract/Node.js/MySQL</p>
+                <a href="#" class="btn-secondary">Voir le projet</a>
+            </div>
+
+            <div class="project-card">
+                <h3 class=""project-title>Archives Sénégal</h3>
+                <p class="project-desc">Tous les domaines, toutes les organisations au Sénégal, retrouvez des archives audiovisuesl, des images, des interviews, des moments historiques qui ont marqué notre pays.</p>
+                <a href="#" class="btn-secondary">Voir le projet</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- RESUME-->
+      <section id="resume" class="section">
+        <h2 class="section-title">RESUME</h2>
+
+        <div class="resume-bolck">
+            <h3 class="resume-subtitle">Formation</h3>
+            <ul class="resume-list">
+                <li> <span class="resume-year">2022-2024</span>Licence en Informatique, Université de Dakar</li>
+                <li><span class="resume-year">2020-2022</span>Formation en géochimie</li>
+            </ul>
+        </div>
+
+        <div class="resume-block">
+            <h3 class="resume-subtitle">Expérience</h3>
+            <ul class="resume-list">
+                <li><span class="resume-year">2024-présent</span>Géologue d'exploration</li>
+                <li><span class="resum-year">2022</span>Stage Géomin</li>
+            </ul>
+        </div>
+
+        <div class="resume-block">
+            <h3 class=""resume-subtitle>Langues</h3>
+            <ul class="resume-list">
+                <li>Français courant</li>
+                <li>Wolof - langue maternelle</li>
+                <li>Anglais intermédiaire</li>
+            </ul>
+
+        </div>
+        <a href="cv.pdf" download class="btn-primary">Téléchargez mon CV</a>
+      </section>
+
+      <!-- CONTACT-->
+       <section id="contact" class="section section-alt">
+            <h2 class="section-title">Contact</h2>
+            <p>Vous pouvez me contacter en remplissant ce formulaire:</p>
+            
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="Nom" name="nom" placeholder="Votre nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre eamil" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="Sujet du message">
+                </div>
+
+                <div class=""form-group>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="mmessage"  rows="6" placeholer="Votre message...." required></textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="submit" class="btn-primary" value="Envoyer"/>
+                    <input type="reset" class="btn-reset" value="Effacer"/>
+                </div>
+            </form>
+
+            <div class="social-links">
+                <p>Retrouvez moi sur:</p>
+                <ul>
+                    <li>Email: <a href="luciatheodoraheleneborgevarela@gmail.com">luciatheodoraheleneborgevarela@gmail.com</a></li>
+                    <li>Github: <a href="https://github.com/Litchiuani">https://github.com/Litchiuani</a></li>
+                    <li>Linkedin: <a href="https://www.linkedin.com/in/lucia-varela-035a8b225/">https://www.linkedin.com/in/lucia-varela-035a8b225/</a></li>
+                </ul>
+            </div>
+       </section>
+
+
+       <!-- FOOTER-->
+       <footer class="footer">
+        <p>&copy;2026 Lucia Theodora Héléne Borge VARELA &mdash; Tous droits réservés</p>
+        <div class="footer-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK</a>
+            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+       </footer>
+</body>
+<</html>
